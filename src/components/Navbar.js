@@ -5,7 +5,7 @@ export default function NavBar() {
     return (
         <div className="navbar">
             <ul>
-                <Link className="glow-on-hover" to = "/">Ok I want to go home now</Link>
+                <Link className="glow-on-hover" to = "/">Take me home</Link>
             </ul>
         </div>
     );
