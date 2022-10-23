@@ -28,14 +28,14 @@ code {
 
 .nasa-photo {
   display: flex;
+  flex-flow: row wrap;
   padding: 40px;
   margin: 0 auto;
   max-height: 100%;
 }
 
 .nasa-photo img {
-  width: 50%;
-  margin-right: 50px;
+  width: 100%;
   object-fit: contain;
   max-height: 80vh;
 }
@@ -43,15 +43,18 @@ code {
 .nasa-photo h1 {
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .nasa-photo .date {
   margin-top: 0;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .nasa-photo .explanation {
   color: #bbb;
+  text-align: center;
 }
 
 .navbar {
